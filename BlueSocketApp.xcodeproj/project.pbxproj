@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D4CCA85C8C32E62075CB6C4 /* Pods_BlueSocketApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208DB635C36DC0EC040C78C4 /* Pods_BlueSocketApp.framework */; };
+		71CEDF3E2087F2F900DCEF11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CEDF3D2087F2F900DCEF11 /* AppDelegate.swift */; };
+		71CEDF402087F2F900DCEF11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CEDF3F2087F2F900DCEF11 /* ViewController.swift */; };
+		71CEDF422087F2F900DCEF11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71CEDF412087F2F900DCEF11 /* Assets.xcassets */; };
+		71CEDF452087F2F900DCEF11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71CEDF432087F2F900DCEF11 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		208DB635C36DC0EC040C78C4 /* Pods_BlueSocketApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueSocketApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CEDF3A2087F2F900DCEF11 /* BlueSocketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueSocketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CEDF3D2087F2F900DCEF11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71CEDF3F2087F2F900DCEF11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71CEDF412087F2F900DCEF11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71CEDF442087F2F900DCEF11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71CEDF462087F2F900DCEF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71CEDF472087F2F900DCEF11 /* BlueSocketApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlueSocketApp.entitlements; sourceTree = "<group>"; };
+		BE8530B28B04F8E47E92183D /* Pods-BlueSocketApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueSocketApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueSocketApp/Pods-BlueSocketApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DD362CC1321754A9F158F11C /* Pods-BlueSocketApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueSocketApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueSocketApp/Pods-BlueSocketApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71CEDF372087F2F900DCEF11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D4CCA85C8C32E62075CB6C4 /* Pods_BlueSocketApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71CEDF312087F2F900DCEF11 = {
+			isa = PBXGroup;
+			children = (
+				71CEDF3C2087F2F900DCEF11 /* BlueSocketApp */,
+				71CEDF3B2087F2F900DCEF11 /* Products */,
+				CD1580452BD454D07B1F65A5 /* Pods */,
+				A2E4AB002B997DC5BDB9A3FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71CEDF3B2087F2F900DCEF11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71CEDF3A2087F2F900DCEF11 /* BlueSocketApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71CEDF3C2087F2F900DCEF11 /* BlueSocketApp */ = {
+			isa = PBXGroup;
+			children = (
+				71CEDF3D2087F2F900DCEF11 /* AppDelegate.swift */,
+				71CEDF3F2087F2F900DCEF11 /* ViewController.swift */,
+				71CEDF412087F2F900DCEF11 /* Assets.xcassets */,
+				71CEDF432087F2F900DCEF11 /* Main.storyboard */,
+				71CEDF462087F2F900DCEF11 /* Info.plist */,
+				71CEDF472087F2F900DCEF11 /* BlueSocketApp.entitlements */,
+			);
+			path = BlueSocketApp;
+			sourceTree = "<group>";
+		};
+		A2E4AB002B997DC5BDB9A3FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				208DB635C36DC0EC040C78C4 /* Pods_BlueSocketApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD1580452BD454D07B1F65A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE8530B28B04F8E47E92183D /* Pods-BlueSocketApp.debug.xcconfig */,
+				DD362CC1321754A9F158F11C /* Pods-BlueSocketApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71CEDF392087F2F900DCEF11 /* BlueSocketApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71CEDF4A2087F2F900DCEF11 /* Build configuration list for PBXNativeTarget "BlueSocketApp" */;
+			buildPhases = (
+				E181060B1F349AB86E7440EF /* [CP] Check Pods Manifest.lock */,
+				71CEDF362087F2F900DCEF11 /* Sources */,
+				71CEDF372087F2F900DCEF11 /* Frameworks */,
+				71CEDF382087F2F900DCEF11 /* Resources */,
+				B13A374894685161DEDC2946 /* [CP] Embed Pods Frameworks */,
+				55657E3E4CC44497C217C616 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueSocketApp;
+			productName = BlueSocketApp;
+			productReference = 71CEDF3A2087F2F900DCEF11 /* BlueSocketApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71CEDF322087F2F900DCEF11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = adeveloper;
+				TargetAttributes = {
+					71CEDF392087F2F900DCEF11 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 71CEDF352087F2F900DCEF11 /* Build configuration list for PBXProject "BlueSocketApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71CEDF312087F2F900DCEF11;
+			productRefGroup = 71CEDF3B2087F2F900DCEF11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71CEDF392087F2F900DCEF11 /* BlueSocketApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71CEDF382087F2F900DCEF11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CEDF422087F2F900DCEF11 /* Assets.xcassets in Resources */,
+				71CEDF452087F2F900DCEF11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55657E3E4CC44497C217C616 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueSocketApp/Pods-BlueSocketApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B13A374894685161DEDC2946 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueSocketApp/Pods-BlueSocketApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E181060B1F349AB86E7440EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71CEDF362087F2F900DCEF11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CEDF402087F2F900DCEF11 /* ViewController.swift in Sources */,
+				71CEDF3E2087F2F900DCEF11 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71CEDF432087F2F900DCEF11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71CEDF442087F2F900DCEF11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71CEDF482087F2F900DCEF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71CEDF492087F2F900DCEF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		71CEDF4B2087F2F900DCEF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE8530B28B04F8E47E92183D /* Pods-BlueSocketApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BlueSocketApp/BlueSocketApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RF42FG352F;
+				INFOPLIST_FILE = BlueSocketApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adeveloper.BlueSocketApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		71CEDF4C2087F2F900DCEF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD362CC1321754A9F158F11C /* Pods-BlueSocketApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BlueSocketApp/BlueSocketApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RF42FG352F;
+				INFOPLIST_FILE = BlueSocketApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adeveloper.BlueSocketApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71CEDF352087F2F900DCEF11 /* Build configuration list for PBXProject "BlueSocketApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CEDF482087F2F900DCEF11 /* Debug */,
+				71CEDF492087F2F900DCEF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71CEDF4A2087F2F900DCEF11 /* Build configuration list for PBXNativeTarget "BlueSocketApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CEDF4B2087F2F900DCEF11 /* Debug */,
+				71CEDF4C2087F2F900DCEF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71CEDF322087F2F900DCEF11 /* Project object */;
+}

@@ -1,0 +1,12 @@
+PODS:
+  - BlueSocket (0.12.79)
+
+DEPENDENCIES:
+  - BlueSocket
+
+SPEC CHECKSUMS:
+  BlueSocket: e48444dc7f72ecddbd854feab62e4ba27c1d08e1
+
+PODFILE CHECKSUM: 6b9117c1de07fda835049667d42a56bc44dfea3a
+
+COCOAPODS: 1.3.0.beta.1
